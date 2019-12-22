@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<extension type="library" version="3.0" method="upgrade">
+    <name>Library - RTAD</name>
+    <libraryname>rtad</libraryname>
+    <author>Vladimir 'def' Titov</author>
+    <authorEmail>vvatitv@gmail.com</authorEmail>
+    <authorUrl>https://rtad.ru</authorUrl>
+    <copyright>Copyright (C) 2019 Vladimir Titov. All rights reserved.</copyright>
+    <creationDate>December 2019</creationDate>
+    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <version>1.0.0</version>
+    <description>LIB_RTAD_DESCRIPTION</description>
+    <files>
+        <folder>language</folder>
+        <filename>LICENSE</filename>
+        <filename>README.md</filename>
+        <filename>library.php</filename>
+    </files>
+</extension>
