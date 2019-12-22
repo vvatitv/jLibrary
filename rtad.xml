@@ -9,7 +9,7 @@
     <creationDate>December 2019</creationDate>
     <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
     <version>1.0.0</version>
-    <description>LIB_RTAD_DESCRIPTION</description>
+    <description>RTAD Joomla! Library to use as reference</description>
     <files>
         <folder>language</folder>
         <filename>LICENSE</filename>
