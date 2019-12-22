@@ -6,7 +6,7 @@ use \libphonenumber\PhoneNumberUtil;
 
 abstract class RTADHelperPhone {
 
-	public static function util(){
+	public static function Util(){
 		return PhoneNumberUtil::getInstance();
 	}
 	
