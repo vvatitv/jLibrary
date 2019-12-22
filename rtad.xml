@@ -12,8 +12,11 @@
     <description>RTAD Joomla! Library to use as reference</description>
     <files>
         <folder>language</folder>
+        <folder>helper</folder>
+        <folder>vendor</folder>
         <filename>LICENSE</filename>
         <filename>README.md</filename>
+        <filename>rtad.xml</filename>
         <filename>library.php</filename>
     </files>
 </extension>
