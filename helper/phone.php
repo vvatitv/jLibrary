@@ -4,4 +4,10 @@ defined('_JEXEC') or die;
 
 use \libphonenumber\PhoneNumberUtil;
 
-class RTADHelperPhone extends PhoneNumberUtil {}
+abstract class RTADHelperPhone {
+
+	public static function util(){
+		return PhoneNumberUtil::getInstance();
+	}
+	
+}
