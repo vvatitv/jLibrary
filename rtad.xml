@@ -7,7 +7,7 @@
     <authorUrl>https://rtad.ru</authorUrl>
     <copyright>Copyright (C) 2019 Vladimir Titov. All rights reserved.</copyright>
     <creationDate>December 2019</creationDate>
-    <license>http://www.gnu.org/licenses/gpl-2.0.html GNU/GPL</license>
+    <license>MIT License</license>
     <version>1.0.0</version>
     <description>RTAD Joomla! Library to use as reference</description>
     <files>
