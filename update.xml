@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<updates>
+	<update>
+		<name><![CDATA[Library - RTAD]]></name>
+		<description><![CDATA[RTAD Joomla! Library to use as reference]]></description>
+		<element>rtad_jdump</element>
+		<version>1.0.2</version>
+		<type>library</type>
+		<client>site</client>
+		<infourl>https://github.com/vvatitv/jLibrary</infourl>
+		<downloads>
+			<downloadurl type="full" format="zip">https://github.com/vvatitv/jLibrary/releases/download/v1.0.2/jLibrary.zip</downloadurl>
+		</downloads>
+		<section>updates</section>
+        <tags>
+            <tag>stable</tag>
+        </tags>
+		<maintainer><![CDATA[Vladimir 'def' Titov]]></maintainer>
+		<maintainerurl>https://rtad.ru</maintainerurl>
+		<targetplatform name="joomla" version="3.*"/>
+		<php_minimum>7.0.0</php_minimum>
+	</update>
+</updates>
