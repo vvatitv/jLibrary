@@ -8,6 +8,10 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
 {
     public static $files = array (
         '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
+        '72579e7bd17821bb1321b87411366eae' => __DIR__ . '/..' . '/illuminate/support/helpers.php',
+        'e803af0597ea9e5b518c7d090fb85601' => __DIR__ . '/..' . '/arcanedev/support/constants.php',
+        '5323a5cb5bb1bab9b2f24566beed262a' => __DIR__ . '/..' . '/arcanedev/support/helpers.php',
+        'e3c4782826715cda7f99388cd079e3e1' => __DIR__ . '/..' . '/arcanedev/no-captcha/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -20,10 +24,28 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
             'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Translation\\' => 30,
             'Symfony\\Component\\Translation\\' => 30,
+            'Symfony\\Component\\Finder\\' => 25,
+        ),
+        'P' => 
+        array (
+            'Psr\\SimpleCache\\' => 16,
+            'Psr\\Http\\Message\\' => 17,
+            'Psr\\Container\\' => 14,
+            'Phelium\\Component\\' => 18,
+        ),
+        'I' => 
+        array (
+            'Illuminate\\Support\\' => 19,
+            'Illuminate\\Filesystem\\' => 22,
+            'Illuminate\\Contracts\\' => 21,
         ),
         'G' => 
         array (
             'Giggsey\\Locale\\' => 15,
+        ),
+        'D' => 
+        array (
+            'Doctrine\\Common\\Inflector\\' => 26,
         ),
         'C' => 
         array (
@@ -32,6 +54,12 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
         'B' => 
         array (
             'Blocktrail\\CryptoJSAES\\' => 23,
+        ),
+        'A' => 
+        array (
+            'Arcanedev\\Support\\' => 18,
+            'Arcanedev\\NoCaptcha\\' => 20,
+            'Arcanedev\\Html\\' => 15,
         ),
     );
 
@@ -52,9 +80,45 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
         array (
             0 => __DIR__ . '/..' . '/symfony/translation',
         ),
+        'Symfony\\Component\\Finder\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/symfony/finder',
+        ),
+        'Psr\\SimpleCache\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/simple-cache/src',
+        ),
+        'Psr\\Http\\Message\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/http-message/src',
+        ),
+        'Psr\\Container\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/psr/container/src',
+        ),
+        'Phelium\\Component\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/phelium/recaptcha/src',
+        ),
+        'Illuminate\\Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/support',
+        ),
+        'Illuminate\\Filesystem\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/filesystem',
+        ),
+        'Illuminate\\Contracts\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/illuminate/contracts',
+        ),
         'Giggsey\\Locale\\' => 
         array (
             0 => __DIR__ . '/..' . '/giggsey/locale/src',
+        ),
+        'Doctrine\\Common\\Inflector\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/doctrine/inflector/lib/Doctrine/Common/Inflector',
         ),
         'Carbon\\' => 
         array (
@@ -63,6 +127,18 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
         'Blocktrail\\CryptoJSAES\\' => 
         array (
             0 => __DIR__ . '/..' . '/blocktrail/cryptojs-aes-php/src',
+        ),
+        'Arcanedev\\Support\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/arcanedev/support/src',
+        ),
+        'Arcanedev\\NoCaptcha\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/arcanedev/no-captcha/src',
+        ),
+        'Arcanedev\\Html\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/arcanedev/php-html/src',
         ),
     );
 

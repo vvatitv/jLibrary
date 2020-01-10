@@ -1,5 +1,184 @@
 [
     {
+        "name": "arcanedev/no-captcha",
+        "version": "10.1.0",
+        "version_normalized": "10.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ARCANEDEV/noCAPTCHA.git",
+            "reference": "007d7064eee3aa4c38b62fab3295f1aa9b4b2629"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ARCANEDEV/noCAPTCHA/zipball/007d7064eee3aa4c38b62fab3295f1aa9b4b2629",
+            "reference": "007d7064eee3aa4c38b62fab3295f1aa9b4b2629",
+            "shasum": ""
+        },
+        "require": {
+            "arcanedev/php-html": "^3.0",
+            "arcanedev/support": "^5.0",
+            "ext-curl": "*",
+            "ext-json": "*",
+            "php": ">=7.2.0",
+            "psr/http-message": "^1.0"
+        },
+        "require-dev": {
+            "orchestra/testbench": "^4.0",
+            "phpunit/phpcov": "^6.0",
+            "phpunit/phpunit": "^8.0"
+        },
+        "time": "2019-10-02T21:50:51+00:00",
+        "type": "library",
+        "extra": {
+            "laravel": {
+                "providers": [
+                    "Arcanedev\\NoCaptcha\\NoCaptchaServiceProvider"
+                ]
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Arcanedev\\NoCaptcha\\": "src/"
+            },
+            "files": [
+                "helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "ARCANEDEV",
+                "email": "arcanedev.maroc@gmail.com",
+                "homepage": "https://github.com/arcanedev-maroc",
+                "role": "Developer"
+            }
+        ],
+        "description": "No CAPTCHA (new Google reCAPTCHA) with Laravel support",
+        "homepage": "https://github.com/ARCANEDEV/noCAPTCHA",
+        "keywords": [
+            "arcanedev",
+            "captcha",
+            "google",
+            "laravel",
+            "no-captcha",
+            "recaptcha"
+        ]
+    },
+    {
+        "name": "arcanedev/php-html",
+        "version": "3.0.1",
+        "version_normalized": "3.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ARCANEDEV/php-html.git",
+            "reference": "f7d1523cce9964dc72f99def9b55880fddb092fd"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ARCANEDEV/php-html/zipball/f7d1523cce9964dc72f99def9b55880fddb092fd",
+            "reference": "f7d1523cce9964dc72f99def9b55880fddb092fd",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/support": "^6.0",
+            "php": ">=7.2.0"
+        },
+        "require-dev": {
+            "ext-dom": "*",
+            "phpunit/phpcov": "^6.0",
+            "phpunit/phpunit": "^8.0"
+        },
+        "time": "2019-10-02T20:56:53+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Arcanedev\\Html\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "ARCANEDEV",
+                "email": "arcanedev.maroc@gmail.com",
+                "homepage": "https://github.com/arcanedev-maroc",
+                "role": "Developer"
+            }
+        ],
+        "description": "A simple way to create html tags with php.",
+        "homepage": "https://github.com/ARCANEDEV/php-html",
+        "keywords": [
+            "arcanedev",
+            "form",
+            "html",
+            "tags"
+        ]
+    },
+    {
+        "name": "arcanedev/support",
+        "version": "5.1.1",
+        "version_normalized": "5.1.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/ARCANEDEV/Support.git",
+            "reference": "cf731be18e7d0138223bd8e134f623a9d8c674d7"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/ARCANEDEV/Support/zipball/cf731be18e7d0138223bd8e134f623a9d8c674d7",
+            "reference": "cf731be18e7d0138223bd8e134f623a9d8c674d7",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/filesystem": "^6.0",
+            "illuminate/support": "^6.0",
+            "php": ">=7.2.0"
+        },
+        "require-dev": {
+            "orchestra/testbench": "^4.0",
+            "phpunit/phpcov": "^6.0",
+            "phpunit/phpunit": "^8.0"
+        },
+        "time": "2019-10-02T18:20:38+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Arcanedev\\Support\\": "src/"
+            },
+            "files": [
+                "constants.php",
+                "helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "ARCANEDEV",
+                "email": "arcanedev.maroc@gmail.com",
+                "homepage": "https://github.com/arcanedev-maroc"
+            }
+        ],
+        "description": "ARCANEDEV Support Helpers",
+        "homepage": "https://github.com/ARCANEDEV/Support",
+        "keywords": [
+            "arcanedev",
+            "arcanesoft",
+            "laravel",
+            "support"
+        ]
+    },
+    {
         "name": "blocktrail/cryptojs-aes-php",
         "version": "v0.1.0",
         "version_normalized": "0.1.0.0",
@@ -36,6 +215,75 @@
             }
         ],
         "description": "Small openssl_encrypt/decrypt wrapper to be compatible with CryptoJS.AES"
+    },
+    {
+        "name": "doctrine/inflector",
+        "version": "1.3.1",
+        "version_normalized": "1.3.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/doctrine/inflector.git",
+            "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/doctrine/inflector/zipball/ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+            "reference": "ec3a55242203ffa6a4b27c58176da97ff0a7aec1",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "^6.2"
+        },
+        "time": "2019-10-30T19:59:35+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.3.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Doctrine\\Common\\Inflector\\": "lib/Doctrine/Common/Inflector"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Guilherme Blanco",
+                "email": "guilhermeblanco@gmail.com"
+            },
+            {
+                "name": "Roman Borschel",
+                "email": "roman@code-factory.org"
+            },
+            {
+                "name": "Benjamin Eberlei",
+                "email": "kontakt@beberlei.de"
+            },
+            {
+                "name": "Jonathan Wage",
+                "email": "jonwage@gmail.com"
+            },
+            {
+                "name": "Johannes Schmitt",
+                "email": "schmittjoh@gmail.com"
+            }
+        ],
+        "description": "Common String Manipulations with regard to casing and singular/plural rules.",
+        "homepage": "http://www.doctrine-project.org",
+        "keywords": [
+            "inflection",
+            "pluralize",
+            "singularize",
+            "string"
+        ]
     },
     {
         "name": "giggsey/libphonenumber-for-php",
@@ -157,6 +405,169 @@
             }
         ],
         "description": "Locale functions required by libphonenumber-for-php"
+    },
+    {
+        "name": "illuminate/contracts",
+        "version": "v6.10.0",
+        "version_normalized": "6.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/contracts.git",
+            "reference": "f1326dfae72c646a8598138b446347954f5e991e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/contracts/zipball/f1326dfae72c646a8598138b446347954f5e991e",
+            "reference": "f1326dfae72c646a8598138b446347954f5e991e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.2",
+            "psr/container": "^1.0",
+            "psr/simple-cache": "^1.0"
+        },
+        "time": "2020-01-07T13:47:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Illuminate\\Contracts\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Illuminate Contracts package.",
+        "homepage": "https://laravel.com"
+    },
+    {
+        "name": "illuminate/filesystem",
+        "version": "v6.10.0",
+        "version_normalized": "6.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/filesystem.git",
+            "reference": "6697d8df3cf09d420f67d708ad33aa749eb8ed6c"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/filesystem/zipball/6697d8df3cf09d420f67d708ad33aa749eb8ed6c",
+            "reference": "6697d8df3cf09d420f67d708ad33aa749eb8ed6c",
+            "shasum": ""
+        },
+        "require": {
+            "illuminate/contracts": "^6.0",
+            "illuminate/support": "^6.0",
+            "php": "^7.2",
+            "symfony/finder": "^4.3.4"
+        },
+        "suggest": {
+            "league/flysystem": "Required to use the Flysystem local and FTP drivers (^1.0).",
+            "league/flysystem-aws-s3-v3": "Required to use the Flysystem S3 driver (^1.0).",
+            "league/flysystem-cached-adapter": "Required to use the Flysystem cache (^1.0).",
+            "league/flysystem-sftp": "Required to use the Flysystem SFTP driver (^1.0).",
+            "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0)"
+        },
+        "time": "2020-01-07T13:47:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Illuminate\\Filesystem\\": ""
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Illuminate Filesystem package.",
+        "homepage": "https://laravel.com"
+    },
+    {
+        "name": "illuminate/support",
+        "version": "v6.10.0",
+        "version_normalized": "6.10.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/support.git",
+            "reference": "564b8b6ae8ca7660143c6b807effb289d5fd2616"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/support/zipball/564b8b6ae8ca7660143c6b807effb289d5fd2616",
+            "reference": "564b8b6ae8ca7660143c6b807effb289d5fd2616",
+            "shasum": ""
+        },
+        "require": {
+            "doctrine/inflector": "^1.1",
+            "ext-json": "*",
+            "ext-mbstring": "*",
+            "illuminate/contracts": "^6.0",
+            "nesbot/carbon": "^2.0",
+            "php": "^7.2"
+        },
+        "conflict": {
+            "tightenco/collect": "<5.5.33"
+        },
+        "suggest": {
+            "illuminate/filesystem": "Required to use the composer class (^6.0).",
+            "moontoast/math": "Required to use ordered UUIDs (^1.1).",
+            "ramsey/uuid": "Required to use Str::uuid() (^3.7).",
+            "symfony/process": "Required to use the composer class (^4.3.4).",
+            "symfony/var-dumper": "Required to use the dd function (^4.3.4).",
+            "vlucas/phpdotenv": "Required to use the Env class and env helper (^3.3)."
+        },
+        "time": "2020-01-07T13:47:03+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "6.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Illuminate\\Support\\": ""
+            },
+            "files": [
+                "helpers.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Taylor Otwell",
+                "email": "taylor@laravel.com"
+            }
+        ],
+        "description": "The Illuminate Support package.",
+        "homepage": "https://laravel.com"
     },
     {
         "name": "mobiledetect/mobiledetectlib",
@@ -283,6 +694,253 @@
             "datetime",
             "time"
         ]
+    },
+    {
+        "name": "phelium/recaptcha",
+        "version": "dev-master",
+        "version_normalized": "9999999-dev",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/shevabam/recaptcha.git",
+            "reference": "e94090ee7237b5e4ddc34c6f26dad43d27816985"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/shevabam/recaptcha/zipball/e94090ee7237b5e4ddc34c6f26dad43d27816985",
+            "reference": "e94090ee7237b5e4ddc34c6f26dad43d27816985",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2018-05-13T13:22:28+00:00",
+        "type": "library",
+        "installation-source": "source",
+        "autoload": {
+            "psr-4": {
+                "Phelium\\Component\\": "src"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "GPL-2.0-only"
+        ],
+        "authors": [
+            {
+                "name": "ShevAbam"
+            }
+        ],
+        "description": "reCAPTCHA v2 class",
+        "homepage": "https://github.com/shevabam/recaptcha",
+        "keywords": [
+            "captcha",
+            "google",
+            "recaptcha"
+        ]
+    },
+    {
+        "name": "psr/container",
+        "version": "1.0.0",
+        "version_normalized": "1.0.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/container.git",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/container/zipball/b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "reference": "b7ce3b176482dbbc1245ebf52b181af44c2cf55f",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-02-14T16:28:37+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Container\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common Container Interface (PHP FIG PSR-11)",
+        "homepage": "https://github.com/php-fig/container",
+        "keywords": [
+            "PSR-11",
+            "container",
+            "container-interface",
+            "container-interop",
+            "psr"
+        ]
+    },
+    {
+        "name": "psr/http-message",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/http-message.git",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/http-message/zipball/f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "reference": "f6561bf28d520154e4b0ec72be95418abe6d9363",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2016-08-06T14:39:51+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\Http\\Message\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interface for HTTP messages",
+        "homepage": "https://github.com/php-fig/http-message",
+        "keywords": [
+            "http",
+            "http-message",
+            "psr",
+            "psr-7",
+            "request",
+            "response"
+        ]
+    },
+    {
+        "name": "psr/simple-cache",
+        "version": "1.0.1",
+        "version_normalized": "1.0.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/php-fig/simple-cache.git",
+            "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/php-fig/simple-cache/zipball/408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+            "reference": "408d5eafb83c57f6365a3ca330ff23aa4a5fa39b",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.3.0"
+        },
+        "time": "2017-10-23T01:57:42+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.0.x-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Psr\\SimpleCache\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "PHP-FIG",
+                "homepage": "http://www.php-fig.org/"
+            }
+        ],
+        "description": "Common interfaces for simple caching",
+        "keywords": [
+            "cache",
+            "caching",
+            "psr",
+            "psr-16",
+            "simple-cache"
+        ]
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v4.4.2",
+        "version_normalized": "4.4.2.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "ce8743441da64c41e2a667b8eb66070444ed911e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/ce8743441da64c41e2a667b8eb66070444ed911e",
+            "reference": "ce8743441da64c41e2a667b8eb66070444ed911e",
+            "shasum": ""
+        },
+        "require": {
+            "php": "^7.1.3"
+        },
+        "time": "2019-11-17T21:56:56+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "4.4-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Symfony\\Component\\Finder\\": ""
+            },
+            "exclude-from-classmap": [
+                "/Tests/"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Fabien Potencier",
+                "email": "fabien@symfony.com"
+            },
+            {
+                "name": "Symfony Community",
+                "homepage": "https://symfony.com/contributors"
+            }
+        ],
+        "description": "Symfony Finder Component",
+        "homepage": "https://symfony.com"
     },
     {
         "name": "symfony/polyfill-mbstring",

@@ -1,0 +1,47 @@
+{
+    "name":        "arcanedev/no-captcha",
+    "description": "No CAPTCHA (new Google reCAPTCHA) with Laravel support",
+    "keywords":    ["arcanedev", "recaptcha", "no-captcha", "captcha", "google", "laravel"],
+    "homepage":    "https://github.com/ARCANEDEV/noCAPTCHA",
+    "authors": [
+        {
+            "name":     "ARCANEDEV",
+            "email":    "arcanedev.maroc@gmail.com",
+            "homepage": "https://github.com/arcanedev-maroc",
+            "role":     "Developer"
+        }
+    ],
+    "type":    "library",
+    "license": "MIT",
+    "require": {
+        "php":                ">=7.2.0",
+        "ext-curl":           "*",
+        "ext-json":           "*",
+        "arcanedev/php-html": "^3.0",
+        "arcanedev/support":  "^5.0",
+        "psr/http-message":   "^1.0"
+    },
+    "require-dev": {
+        "orchestra/testbench":    "^4.0",
+        "phpunit/phpunit":        "^8.0",
+        "phpunit/phpcov":         "^6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Arcanedev\\NoCaptcha\\": "src/"
+        },
+        "files": ["helpers.php"]
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Arcanedev\\NoCaptcha\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Arcanedev\\NoCaptcha\\NoCaptchaServiceProvider"
+            ]
+        }
+    }
+}

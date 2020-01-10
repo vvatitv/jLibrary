@@ -3,6 +3,8 @@
         "blocktrail/cryptojs-aes-php": "^0.1.0",
         "nesbot/carbon": "^2.28",
         "mobiledetect/mobiledetectlib": "^2.8",
-        "giggsey/libphonenumber-for-php": "^8.11"
+        "giggsey/libphonenumber-for-php": "^8.11",
+        "phelium/recaptcha": "dev-master",
+        "arcanedev/no-captcha": "^10.1"
     }
 }
