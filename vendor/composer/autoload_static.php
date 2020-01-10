@@ -31,7 +31,6 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
             'Psr\\SimpleCache\\' => 16,
             'Psr\\Http\\Message\\' => 17,
             'Psr\\Container\\' => 14,
-            'Phelium\\Component\\' => 18,
         ),
         'I' => 
         array (
@@ -95,10 +94,6 @@ class ComposerStaticInit8be50c8e8c83780b02da42f8483645a5
         'Psr\\Container\\' => 
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
-        ),
-        'Phelium\\Component\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/phelium/recaptcha/src',
         ),
         'Illuminate\\Support\\' => 
         array (

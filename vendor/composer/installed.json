@@ -696,49 +696,6 @@
         ]
     },
     {
-        "name": "phelium/recaptcha",
-        "version": "dev-master",
-        "version_normalized": "9999999-dev",
-        "source": {
-            "type": "git",
-            "url": "https://github.com/shevabam/recaptcha.git",
-            "reference": "e94090ee7237b5e4ddc34c6f26dad43d27816985"
-        },
-        "dist": {
-            "type": "zip",
-            "url": "https://api.github.com/repos/shevabam/recaptcha/zipball/e94090ee7237b5e4ddc34c6f26dad43d27816985",
-            "reference": "e94090ee7237b5e4ddc34c6f26dad43d27816985",
-            "shasum": ""
-        },
-        "require": {
-            "php": ">=5.3.0"
-        },
-        "time": "2018-05-13T13:22:28+00:00",
-        "type": "library",
-        "installation-source": "source",
-        "autoload": {
-            "psr-4": {
-                "Phelium\\Component\\": "src"
-            }
-        },
-        "notification-url": "https://packagist.org/downloads/",
-        "license": [
-            "GPL-2.0-only"
-        ],
-        "authors": [
-            {
-                "name": "ShevAbam"
-            }
-        ],
-        "description": "reCAPTCHA v2 class",
-        "homepage": "https://github.com/shevabam/recaptcha",
-        "keywords": [
-            "captcha",
-            "google",
-            "recaptcha"
-        ]
-    },
-    {
         "name": "psr/container",
         "version": "1.0.0",
         "version_normalized": "1.0.0.0",
