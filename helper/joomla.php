@@ -11,7 +11,7 @@ abstract class RTADHelperJoomla {
 		return JFactory::getDBO()->setQuery("SELECT `note` FROM `#__categories` WHERE `id` = {$category_id}")->loadResult();
 	}
 	public static function getArticleNote($article_id){
-		if( empty($module_id) ){
+		if( empty($article_id) ){
 			return null;
 		}
 		return JFactory::getDBO()->setQuery("SELECT `note` FROM `#__content` WHERE `id` = {$article_id}")->loadResult();
