@@ -6,7 +6,7 @@ use \Intervention\Image\ImageManager as InterventionImage;
 
 abstract class RTADHelperJGallery {
 
-	public static function getImagesSources($type = null, $cid = null, $catid = null){
+	public static function getImagesSources($type = null, $cid = null, $catid = null, $with_data = false){
 
         $_APP = JFactory::getApplication();
         $_CONFIG = JFactory::getConfig();
@@ -37,7 +37,7 @@ abstract class RTADHelperJGallery {
         if( !empty($_LIST) && RTADHelperJson::is_json($_LIST) ){
             $_LIST = RTADHelperJson::decode($_LIST);
         }
-        if( !empty($_LIST) ){
+        if( !empty($_LIST) && $with_data === true ){
             $_IMAGE_PLUGIN = new InterventionImage();
             foreach($_LIST as $ikey => $image):
                 $image->datasrc = (string)$_IMAGE_PLUGIN->make(JPATH_ROOT . $image->src)->encode('data-url');
