@@ -8,8 +8,14 @@
  * For the full copyright and license information, please view the LICENSE
  * file that was distributed with this source code.
  */
+namespace Carbon\Traits;
 
-/*
- * Unknown default region, use the first alphabetically.
- */
-return require __DIR__.'/so_DJ.php';
+trait ObjectInitialisation
+{
+    /**
+     * True when parent::__construct has been called.
+     *
+     * @var string
+     */
+    protected $constructedObjectId = null;
+}
