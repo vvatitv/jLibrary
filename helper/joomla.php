@@ -27,7 +27,7 @@ abstract class RTADHelperJoomla {
     	$link = $r->link;
         switch ($r->type){
             case 'separator':
-            		continue;
+                break;
             case 'url':
             	if( empty($r->link) ){
             		$link = '#';
