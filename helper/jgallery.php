@@ -7,21 +7,17 @@ use \Intervention\Image\ImageManager as InterventionImage;
 abstract class RTADHelperJGallery {
 
 	public static function getImagesSources($type = null, $cid = null, $catid = null, $with_data = false){
-
         $_APP = JFactory::getApplication();
         $_CONFIG = JFactory::getConfig();
         $_LANG = JFactory::getLanguage();
         $_DB = JFactory::getDbo();
-
         if( empty($type) ){
             return null;
         }
         if( empty($cid) ){
             return null;
         }
-
         $_LIST = null;
-
         $_QUERY = $_DB->getQuery(true);
         $_QUERY->select($_DB->quoteName(array('data')));
         $_QUERY->from($_DB->quoteName('#__rtad_gallery_sources'));
