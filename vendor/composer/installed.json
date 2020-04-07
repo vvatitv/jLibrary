@@ -70,17 +70,17 @@
     },
     {
         "name": "arcanedev/php-html",
-        "version": "3.0.1",
-        "version_normalized": "3.0.1.0",
+        "version": "3.1.0",
+        "version_normalized": "3.1.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/ARCANEDEV/php-html.git",
-            "reference": "f7d1523cce9964dc72f99def9b55880fddb092fd"
+            "reference": "0fcd9710b546b0c631662efe8b4c0106c28315d2"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ARCANEDEV/php-html/zipball/f7d1523cce9964dc72f99def9b55880fddb092fd",
-            "reference": "f7d1523cce9964dc72f99def9b55880fddb092fd",
+            "url": "https://api.github.com/repos/ARCANEDEV/php-html/zipball/0fcd9710b546b0c631662efe8b4c0106c28315d2",
+            "reference": "0fcd9710b546b0c631662efe8b4c0106c28315d2",
             "shasum": ""
         },
         "require": {
@@ -92,7 +92,7 @@
             "phpunit/phpcov": "^6.0",
             "phpunit/phpunit": "^8.0"
         },
-        "time": "2019-10-02T20:56:53+00:00",
+        "time": "2020-02-01T17:20:18+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -123,17 +123,17 @@
     },
     {
         "name": "arcanedev/support",
-        "version": "5.1.1",
-        "version_normalized": "5.1.1.0",
+        "version": "5.2.0",
+        "version_normalized": "5.2.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/ARCANEDEV/Support.git",
-            "reference": "cf731be18e7d0138223bd8e134f623a9d8c674d7"
+            "reference": "1845603e86d7fc705c7159612b87a278c971789f"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/ARCANEDEV/Support/zipball/cf731be18e7d0138223bd8e134f623a9d8c674d7",
-            "reference": "cf731be18e7d0138223bd8e134f623a9d8c674d7",
+            "url": "https://api.github.com/repos/ARCANEDEV/Support/zipball/1845603e86d7fc705c7159612b87a278c971789f",
+            "reference": "1845603e86d7fc705c7159612b87a278c971789f",
             "shasum": ""
         },
         "require": {
@@ -146,7 +146,7 @@
             "phpunit/phpcov": "^6.0",
             "phpunit/phpunit": "^8.0"
         },
-        "time": "2019-10-02T18:20:38+00:00",
+        "time": "2020-02-14T16:40:44+00:00",
         "type": "library",
         "installation-source": "dist",
         "autoload": {
@@ -287,17 +287,17 @@
     },
     {
         "name": "giggsey/libphonenumber-for-php",
-        "version": "8.11.2",
-        "version_normalized": "8.11.2.0",
+        "version": "8.12.1",
+        "version_normalized": "8.12.1.0",
         "source": {
             "type": "git",
             "url": "https://github.com/giggsey/libphonenumber-for-php.git",
-            "reference": "1ec1059b56b40cc1b6b02b438711e4a90ba4bbc7"
+            "reference": "198dffa12831e17320207ce1bd3b121402d2cc8d"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/1ec1059b56b40cc1b6b02b438711e4a90ba4bbc7",
-            "reference": "1ec1059b56b40cc1b6b02b438711e4a90ba4bbc7",
+            "url": "https://api.github.com/repos/giggsey/libphonenumber-for-php/zipball/198dffa12831e17320207ce1bd3b121402d2cc8d",
+            "reference": "198dffa12831e17320207ce1bd3b121402d2cc8d",
             "shasum": ""
         },
         "require": {
@@ -314,7 +314,7 @@
             "phpunit/phpunit": "^4.8.36|^5.0",
             "symfony/console": "^2.8|^3.0"
         },
-        "time": "2020-01-15T09:35:09+00:00",
+        "time": "2020-03-30T08:29:12+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -407,18 +407,91 @@
         "description": "Locale functions required by libphonenumber-for-php"
     },
     {
-        "name": "illuminate/contracts",
-        "version": "v6.12.0",
-        "version_normalized": "6.12.0.0",
+        "name": "guzzlehttp/psr7",
+        "version": "1.6.1",
+        "version_normalized": "1.6.1.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/illuminate/contracts.git",
-            "reference": "f1326dfae72c646a8598138b446347954f5e991e"
+            "url": "https://github.com/guzzle/psr7.git",
+            "reference": "239400de7a173fe9901b9ac7c06497751f00727a"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/contracts/zipball/f1326dfae72c646a8598138b446347954f5e991e",
-            "reference": "f1326dfae72c646a8598138b446347954f5e991e",
+            "url": "https://api.github.com/repos/guzzle/psr7/zipball/239400de7a173fe9901b9ac7c06497751f00727a",
+            "reference": "239400de7a173fe9901b9ac7c06497751f00727a",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4.0",
+            "psr/http-message": "~1.0",
+            "ralouphie/getallheaders": "^2.0.5 || ^3.0.0"
+        },
+        "provide": {
+            "psr/http-message-implementation": "1.0"
+        },
+        "require-dev": {
+            "ext-zlib": "*",
+            "phpunit/phpunit": "~4.8.36 || ^5.7.27 || ^6.5.8"
+        },
+        "suggest": {
+            "zendframework/zend-httphandlerrunner": "Emit PSR-7 responses"
+        },
+        "time": "2019-07-01T23:21:34+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "1.6-dev"
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "GuzzleHttp\\Psr7\\": "src/"
+            },
+            "files": [
+                "src/functions_include.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Michael Dowling",
+                "email": "mtdowling@gmail.com",
+                "homepage": "https://github.com/mtdowling"
+            },
+            {
+                "name": "Tobias Schultze",
+                "homepage": "https://github.com/Tobion"
+            }
+        ],
+        "description": "PSR-7 message implementation that also provides common utility methods",
+        "keywords": [
+            "http",
+            "message",
+            "psr-7",
+            "request",
+            "response",
+            "stream",
+            "uri",
+            "url"
+        ]
+    },
+    {
+        "name": "illuminate/contracts",
+        "version": "v6.18.4",
+        "version_normalized": "6.18.4.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/illuminate/contracts.git",
+            "reference": "e08ea83602d96cdfd7106a15f07878935c1a7675"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/illuminate/contracts/zipball/e08ea83602d96cdfd7106a15f07878935c1a7675",
+            "reference": "e08ea83602d96cdfd7106a15f07878935c1a7675",
             "shasum": ""
         },
         "require": {
@@ -426,7 +499,7 @@
             "psr/container": "^1.0",
             "psr/simple-cache": "^1.0"
         },
-        "time": "2020-01-07T13:47:03+00:00",
+        "time": "2020-02-27T19:49:00+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -454,17 +527,17 @@
     },
     {
         "name": "illuminate/filesystem",
-        "version": "v6.12.0",
-        "version_normalized": "6.12.0.0",
+        "version": "v6.18.4",
+        "version_normalized": "6.18.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/filesystem.git",
-            "reference": "f94e71adfd9d4c9a8faaf5b3fe8e4c5f4be4c536"
+            "reference": "799a3af9435458d56e9f3647e09e11ffc9ace896"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/filesystem/zipball/f94e71adfd9d4c9a8faaf5b3fe8e4c5f4be4c536",
-            "reference": "f94e71adfd9d4c9a8faaf5b3fe8e4c5f4be4c536",
+            "url": "https://api.github.com/repos/illuminate/filesystem/zipball/799a3af9435458d56e9f3647e09e11ffc9ace896",
+            "reference": "799a3af9435458d56e9f3647e09e11ffc9ace896",
             "shasum": ""
         },
         "require": {
@@ -480,7 +553,7 @@
             "league/flysystem-sftp": "Required to use the Flysystem SFTP driver (^1.0).",
             "psr/http-message": "Required to allow Storage::put to accept a StreamInterface (^1.0)"
         },
-        "time": "2020-01-21T13:56:29+00:00",
+        "time": "2020-02-25T14:02:04+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -508,17 +581,17 @@
     },
     {
         "name": "illuminate/support",
-        "version": "v6.12.0",
-        "version_normalized": "6.12.0.0",
+        "version": "v6.18.4",
+        "version_normalized": "6.18.4.0",
         "source": {
             "type": "git",
             "url": "https://github.com/illuminate/support.git",
-            "reference": "0c6bf7cd56a63e46358e6443f90293e429546bc8"
+            "reference": "6955d0c254ae55ede96be71309b5fb09693441cd"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/illuminate/support/zipball/0c6bf7cd56a63e46358e6443f90293e429546bc8",
-            "reference": "0c6bf7cd56a63e46358e6443f90293e429546bc8",
+            "url": "https://api.github.com/repos/illuminate/support/zipball/6955d0c254ae55ede96be71309b5fb09693441cd",
+            "reference": "6955d0c254ae55ede96be71309b5fb09693441cd",
             "shasum": ""
         },
         "require": {
@@ -540,7 +613,7 @@
             "symfony/var-dumper": "Required to use the dd function (^4.3.4).",
             "vlucas/phpdotenv": "Required to use the Env class and env helper (^3.3)."
         },
-        "time": "2020-01-21T13:52:46+00:00",
+        "time": "2020-03-24T20:01:29+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -568,6 +641,78 @@
         ],
         "description": "The Illuminate Support package.",
         "homepage": "https://laravel.com"
+    },
+    {
+        "name": "intervention/image",
+        "version": "2.5.1",
+        "version_normalized": "2.5.1.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/Intervention/image.git",
+            "reference": "abbf18d5ab8367f96b3205ca3c89fb2fa598c69e"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/Intervention/image/zipball/abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
+            "reference": "abbf18d5ab8367f96b3205ca3c89fb2fa598c69e",
+            "shasum": ""
+        },
+        "require": {
+            "ext-fileinfo": "*",
+            "guzzlehttp/psr7": "~1.1",
+            "php": ">=5.4.0"
+        },
+        "require-dev": {
+            "mockery/mockery": "~0.9.2",
+            "phpunit/phpunit": "^4.8 || ^5.7"
+        },
+        "suggest": {
+            "ext-gd": "to use GD library based image processing.",
+            "ext-imagick": "to use Imagick based image processing.",
+            "intervention/imagecache": "Caching extension for the Intervention Image library"
+        },
+        "time": "2019-11-02T09:15:47+00:00",
+        "type": "library",
+        "extra": {
+            "branch-alias": {
+                "dev-master": "2.4-dev"
+            },
+            "laravel": {
+                "providers": [
+                    "Intervention\\Image\\ImageServiceProvider"
+                ],
+                "aliases": {
+                    "Image": "Intervention\\Image\\Facades\\Image"
+                }
+            }
+        },
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "Intervention\\Image\\": "src/Intervention/Image"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Oliver Vogel",
+                "email": "oliver@olivervogel.com",
+                "homepage": "http://olivervogel.com/"
+            }
+        ],
+        "description": "Image handling and manipulation library with support for Laravel integration",
+        "homepage": "http://image.intervention.io/",
+        "keywords": [
+            "gd",
+            "image",
+            "imagick",
+            "laravel",
+            "thumbnail",
+            "watermark"
+        ]
     },
     {
         "name": "mobiledetect/mobiledetectlib",
@@ -625,17 +770,17 @@
     },
     {
         "name": "nesbot/carbon",
-        "version": "2.29.1",
-        "version_normalized": "2.29.1.0",
+        "version": "2.32.2",
+        "version_normalized": "2.32.2.0",
         "source": {
             "type": "git",
             "url": "https://github.com/briannesbitt/Carbon.git",
-            "reference": "e509be5bf2d703390e69e14496d9a1168452b0a2"
+            "reference": "f10e22cf546704fab1db4ad4b9dedbc5c797a0dc"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/e509be5bf2d703390e69e14496d9a1168452b0a2",
-            "reference": "e509be5bf2d703390e69e14496d9a1168452b0a2",
+            "url": "https://api.github.com/repos/briannesbitt/Carbon/zipball/f10e22cf546704fab1db4ad4b9dedbc5c797a0dc",
+            "reference": "f10e22cf546704fab1db4ad4b9dedbc5c797a0dc",
             "shasum": ""
         },
         "require": {
@@ -644,6 +789,7 @@
             "symfony/translation": "^3.4 || ^4.0 || ^5.0"
         },
         "require-dev": {
+            "doctrine/orm": "^2.7",
             "friendsofphp/php-cs-fixer": "^2.14 || ^3.0",
             "kylekatarnls/multi-tester": "^1.1",
             "phpmd/phpmd": "^2.8",
@@ -651,7 +797,7 @@
             "phpunit/phpunit": "^7.5 || ^8.0",
             "squizlabs/php_codesniffer": "^3.4"
         },
-        "time": "2020-01-21T09:36:43+00:00",
+        "time": "2020-03-31T13:43:19+00:00",
         "bin": [
             "bin/carbon"
         ],
@@ -849,24 +995,66 @@
         ]
     },
     {
-        "name": "symfony/finder",
-        "version": "v4.4.3",
-        "version_normalized": "4.4.3.0",
+        "name": "ralouphie/getallheaders",
+        "version": "3.0.3",
+        "version_normalized": "3.0.3.0",
         "source": {
             "type": "git",
-            "url": "https://github.com/symfony/finder.git",
-            "reference": "3a50be43515590faf812fbd7708200aabc327ec3"
+            "url": "https://github.com/ralouphie/getallheaders.git",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/finder/zipball/3a50be43515590faf812fbd7708200aabc327ec3",
-            "reference": "3a50be43515590faf812fbd7708200aabc327ec3",
+            "url": "https://api.github.com/repos/ralouphie/getallheaders/zipball/120b605dfeb996808c31b6477290a714d356e822",
+            "reference": "120b605dfeb996808c31b6477290a714d356e822",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.6"
+        },
+        "require-dev": {
+            "php-coveralls/php-coveralls": "^2.1",
+            "phpunit/phpunit": "^5 || ^6.5"
+        },
+        "time": "2019-03-08T08:55:37+00:00",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "files": [
+                "src/getallheaders.php"
+            ]
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "authors": [
+            {
+                "name": "Ralph Khattar",
+                "email": "ralph.khattar@gmail.com"
+            }
+        ],
+        "description": "A polyfill for getallheaders."
+    },
+    {
+        "name": "symfony/finder",
+        "version": "v4.4.7",
+        "version_normalized": "4.4.7.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/symfony/finder.git",
+            "reference": "5729f943f9854c5781984ed4907bbb817735776b"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/symfony/finder/zipball/5729f943f9854c5781984ed4907bbb817735776b",
+            "reference": "5729f943f9854c5781984ed4907bbb817735776b",
             "shasum": ""
         },
         "require": {
             "php": "^7.1.3"
         },
-        "time": "2020-01-04T13:00:46+00:00",
+        "time": "2020-03-27T16:54:36+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
@@ -901,17 +1089,17 @@
     },
     {
         "name": "symfony/polyfill-mbstring",
-        "version": "v1.13.1",
-        "version_normalized": "1.13.1.0",
+        "version": "v1.15.0",
+        "version_normalized": "1.15.0.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/polyfill-mbstring.git",
-            "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f"
+            "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/7b4aab9743c30be783b73de055d24a39cf4b954f",
-            "reference": "7b4aab9743c30be783b73de055d24a39cf4b954f",
+            "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
+            "reference": "81ffd3a9c6d707be22e3012b827de1c9775fc5ac",
             "shasum": ""
         },
         "require": {
@@ -920,11 +1108,11 @@
         "suggest": {
             "ext-mbstring": "For best performance"
         },
-        "time": "2019-11-27T14:18:11+00:00",
+        "time": "2020-03-09T19:04:49+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {
-                "dev-master": "1.13-dev"
+                "dev-master": "1.15-dev"
             }
         },
         "installation-source": "dist",
@@ -962,17 +1150,17 @@
     },
     {
         "name": "symfony/translation",
-        "version": "v5.0.3",
-        "version_normalized": "5.0.3.0",
+        "version": "v5.0.7",
+        "version_normalized": "5.0.7.0",
         "source": {
             "type": "git",
             "url": "https://github.com/symfony/translation.git",
-            "reference": "28e1054f1ea26c63762d9260c37cb1056ea62dbb"
+            "reference": "99b831770e10807dca0979518e2c89edffef5978"
         },
         "dist": {
             "type": "zip",
-            "url": "https://api.github.com/repos/symfony/translation/zipball/28e1054f1ea26c63762d9260c37cb1056ea62dbb",
-            "reference": "28e1054f1ea26c63762d9260c37cb1056ea62dbb",
+            "url": "https://api.github.com/repos/symfony/translation/zipball/99b831770e10807dca0979518e2c89edffef5978",
+            "reference": "99b831770e10807dca0979518e2c89edffef5978",
             "shasum": ""
         },
         "require": {
@@ -1006,7 +1194,7 @@
             "symfony/config": "",
             "symfony/yaml": ""
         },
-        "time": "2020-01-21T08:40:24+00:00",
+        "time": "2020-03-27T16:56:45+00:00",
         "type": "library",
         "extra": {
             "branch-alias": {

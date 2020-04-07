@@ -4,6 +4,7 @@
         "nesbot/carbon": "^2.28",
         "mobiledetect/mobiledetectlib": "^2.8",
         "giggsey/libphonenumber-for-php": "^8.11",
-        "arcanedev/no-captcha": "^10.1"
+        "arcanedev/no-captcha": "^10.1",
+        "intervention/image": "^2.5"
     }
 }

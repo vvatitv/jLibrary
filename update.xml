@@ -4,7 +4,7 @@
 		<name><![CDATA[Library - RTAD]]></name>
 		<description><![CDATA[RTAD Joomla! Library to use as reference]]></description>
 		<element>rtad</element>
-		<version>1.0.3</version>
+		<version>1.0.4</version>
 		<type>library</type>
 		<client>site</client>
 		<infourl>https://github.com/vvatitv/jLibrary</infourl>
